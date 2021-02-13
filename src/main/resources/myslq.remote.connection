@@ -1,0 +1,8 @@
+grant all privileges on *.* to 'root'@'%' identified by 'root' with grant option;
+select user,host from mysql.user;
+
+mysql v8
+----------
+create user 'root'@'%'  identified by 'sqladmin';
+grant all privileges on *.* to 'root'@'%' identified by 'root' with grant option;
+flush privileges;
