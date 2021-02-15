@@ -20,4 +20,12 @@ public class ExpenseService {
     public List<ExpenseEntity> getCurrentMonthExpenses(){
         return expenseRepository.findAll();
     }
+
+    public List<ExpenseEntity> findAll(){
+        return expenseRepository.findAll();
+    }
+
+    public ExpenseEntity save(ExpenseEntity expenseEntity){
+        return expenseRepository.save(expenseEntity);
+    }
 }

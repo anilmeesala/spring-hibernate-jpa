@@ -7,7 +7,7 @@ category_id int not null,
 location_name varchar(512),
 creation_date date not null,
 modified_date date not null
-)
+);
 
 create table category(
 id int primary key,

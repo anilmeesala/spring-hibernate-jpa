@@ -9,4 +9,3 @@ insert into category values (8, 'INTERNET');
 insert into category values (9, 'PHONE');
 insert into category values (10,'TRAVEL');
 insert into category values (11,'TRANSPORT');
----------

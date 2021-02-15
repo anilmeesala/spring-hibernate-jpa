@@ -1,0 +1,13 @@
+POST http://localhost:8080/api/saveExpense
+Content-Type: application/json
+
+{
+  "id":2,"name": "test1","location": "test",
+  "expenseDate": "2020-01-01",
+  "createdDate": "2020-01-01",
+  "modifiedDate": "2020-01-01",
+  "amount": 500,
+  "category": 1
+}
+
+###
